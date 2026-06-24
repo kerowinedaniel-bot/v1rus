@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>V1RUS HUB — Developer Community</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  </head>
+  <body>
+    <canvas id="bg-canvas"></canvas>
+
+    <header class="topbar glass">
+      <div class="brand">Scripts by v1rus</div>
+      <nav class="nav">
+        <a href="#home">Главная</a>
+        <a href="#about">О сервере</a>
+        <a href="#creator">Создатель</a>
+        <a href="#materials">Материалы</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <div class="logo-anim">🦠 V1RUS</div>
+          <div class="subtitle">Lua • Python • JavaScript Developer</div>
+          <p class="lead">Сообщество разработчиков</p>
+          <ul class="lead-list">
+            <li>скрипты</li>
+            <li>исходники</li>
+            <li>инструменты</li>
+            <li>фиксы</li>
+            <li>полезные материалы</li>
+            <li>проекты</li>
+          </ul>
+
+          <div class="cta">
+            <a class="btn neon" href="https://discord.gg/YBKCvH6T" target="_blank">🚀 Вступить в Discord</a>
+            <a class="btn neon alt" href="https://t.me/fkkray" target="_blank">📱 Telegram создателя</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="creator" class="glass-section">
+        <h2>О создателе</h2>
+        <div class="creator-card glass reveal">
+          <div class="creator-avatar">👨‍💻</div>
+          <div class="creator-info">
+            <h3>v1rus</h3>
+            <div class="role">Lua &amp; JS &amp; Python Developer</div>
+            <p>Привет! Меня зовут v1rus.<br>Я занимаюсь разработкой Lua-скриптов для Counter-Strike: Source v34, созданием Telegram-ботов на Python и backend-разработкой сайтов.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="materials" class="cards-section">
+        <h2>Что есть на сервере</h2>
+        <div class="cards">
+          <div class="card reveal">⚡ Lua Scripts CSS v34</div>
+          <div class="card reveal">🐍 Python Projects</div>
+          <div class="card reveal">🤖 Telegram Bots</div>
+          <div class="card reveal">🌐 Backend Solutions</div>
+          <div class="card reveal">📂 Source Codes</div>
+          <div class="card reveal">🛠️ Fixes &amp; Resources</div>
+          <div class="card reveal">🎮 Gaming Tools</div>
+          <div class="card reveal">🔥 Exclusive Materials</div>
+        </div>
+      </section>
+
+      <section id="verify" class="verify-section reveal">
+        <h2>🔐 Доступ на сервер</h2>
+        <div class="verify-card glass">
+          Чтобы получить доступ к дополнительным каналам, необходимо пройти проверку в канале: <strong>✅┃верификация</strong>
+        </div>
+      </section>
+
+      <section id="english" class="glass-section reveal">
+        <h2>🇬🇧 English</h2>
+        <p>Hello! My name is v1rus. I specialize in developing Lua scripts for Counter-Strike: Source v34, creating Telegram bots with Python, and building backend systems for websites. Welcome to the community.</p>
+      </section>
+
+      <section id="terminal" class="terminal-section reveal">
+        <h2>Developer Terminal</h2>
+        <pre id="terminal-output" class="terminal"></pre>
+      </section>
+    </main>
+
+    <footer class="site-footer glass">
+      <div class="f-left"> V1RUS HUB — Developer Community</div>
+      <div class="f-right">© 2026 Created by v1rus — Discord: <a href="https://discord.gg/YBKCvH6T">join</a> — Telegram: <a href="https://t.me/fkkray">@fkkray</a></div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+  </body>
+</html>
